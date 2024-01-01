@@ -1,0 +1,35 @@
+:root {
+    --primary: #fff;
+    --secondary: #000;
+    --accent: #f1f2f4;
+}
+
+body {
+    background-color: var(--accent);
+}
+
+.img-brand-logo {
+    height: 84px;
+}
+
+.main-menu-container {
+    height: 84px;
+    width: 100%;
+    background-color: var(--primary);
+}
+
+.input-search {
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 12px;
+    height: 50px;
+    margin: 15px;
+    background-color: var(--accent);
+}
+
+.main-menu-side-btn>li {
+    display: inline;
+    line-height: 84px;
+    font-size: larger;
+    padding: 12px;
+}
